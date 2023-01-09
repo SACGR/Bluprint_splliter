@@ -1,0 +1,15 @@
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\bin\Debug\net6.0\Bloprint_spliter.exe
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\bin\Debug\net6.0\Bloprint_spliter.deps.json
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\bin\Debug\net6.0\Bloprint_spliter.runtimeconfig.json
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\bin\Debug\net6.0\Bloprint_spliter.dll
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\bin\Debug\net6.0\Bloprint_spliter.pdb
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.csproj.AssemblyReference.cache
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.AssemblyInfoInputs.cache
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.AssemblyInfo.cs
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.csproj.CoreCompileInputs.cache
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.dll
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\refint\Bloprint_spliter.dll
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.pdb
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.genruntimeconfig.cache
+C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\ref\Bloprint_spliter.dll
