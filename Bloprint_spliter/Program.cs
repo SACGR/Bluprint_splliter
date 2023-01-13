@@ -40,7 +40,7 @@ foreach (string s in strings)
     else
         arbetare += "\n" + s;
 }
-resultat.Add("</ Definitions >");
+resultat.Add("</Definitions>");
 
 Console.WriteLine("Klar");
 Console.WriteLine(resultat.Count);
