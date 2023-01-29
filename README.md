@@ -1,2 +1,2 @@
 # Bluprint_splliter
-Detta är ett terminal prubram som kan della up en Space Engener Bp.spc fill 
+Detta är ett terminal program som kan dela upp en Space Engineer Bp.spc fil
