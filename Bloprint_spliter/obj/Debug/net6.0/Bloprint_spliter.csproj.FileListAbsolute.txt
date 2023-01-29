@@ -13,3 +13,6 @@ C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_splite
 C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.pdb
 C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.genruntimeconfig.cache
 C:\Users\Caspian\Documents\Alla_dokoment_relaterade_till_SE-main\Bloprint_spliter\obj\Debug\net6.0\ref\Bloprint_spliter.dll
+C:\Users\Caspian\Source\Repos\Bluprint_splliter\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.dll
+C:\Users\Caspian\Source\Repos\Bluprint_splliter\Bloprint_spliter\obj\Debug\net6.0\refint\Bloprint_spliter.dll
+C:\Users\Caspian\Source\Repos\Bluprint_splliter\Bloprint_spliter\obj\Debug\net6.0\Bloprint_spliter.pdb
