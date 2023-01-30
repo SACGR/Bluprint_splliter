@@ -89,8 +89,12 @@ for (int i = 0; i < Mitten.GetLength(1); i++)
     for (int i = 0; i < Block.GetLength(1); i++)
 			{
                 if (Mitten[1,i] != Block[0,i])
+        {
             Block[0,i+1] = Mitten[1,i];
                 return;
+
+        }
+            
 
 			}
      
