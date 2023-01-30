@@ -7,8 +7,11 @@ using System.Runtime.ExceptionServices;
 int börjLängd = 25;
 int slutLängd = 14;
 
-
-
+//De tre dellarna till en bp
+string Början = "";
+string Slut = "";
+//första värdet här hella blocket(Mitten[0,i]), andra är mannet(Mitten[1,i]), Tredje är om den ska behollas(Mitten[2,i])
+string[,] Mitten;
 
 
 Console.WriteLine("Var ligger fillen\nom blank letar den i kotalågen dår .exe fillen ligger");
@@ -16,8 +19,6 @@ string RutFillVäg = Console.ReadLine();
 string pafROt = Directory.GetCurrentDirectory();
 if (RutFillVäg != "")
     pafROt = RutFillVäg;
-
-
 
 Console.WriteLine(pafROt + "\nVad hetter fillen\nOm blank kommer den att hetta bp.spc");
 string FillVäg = Console.ReadLine();
@@ -29,11 +30,8 @@ Console.WriteLine("Hella Fillväg " + HellaFillVäg);
 List<string> råFillen = File.ReadAllLines(HellaFillVäg).ToList();
 
 
- 
-string Början = "";
-string Slut = "";
-//första värdet här hella blocket(Mitten[0,i]), andra är mannet(Mitten[1,i]), Tredje är om den ska behollas(Mitten[2,i])
-string[,] Mitten;
+
+
 
 
 
