@@ -41,13 +41,13 @@ List<string> råFillen = File.ReadAllLines(HellaFillVäg).ToList();
 
 //Ta bort början av fillen
 for (int i = 0; i < börjLängd; i++)
-    Början.Append("\n" + råFillen[i])
+    Början.Append("\n" + råFillen[i]);
 
 //Ta bort slutet av fillen
 for (int i = 0; i < slutLängd; i++)
 {
     int it = råFillen.Count - (slutLängd - i);
-    Slut.Append("\n" + råFillen[it])
+    Slut.Append("\n" + råFillen[it]);
 
 }
 
