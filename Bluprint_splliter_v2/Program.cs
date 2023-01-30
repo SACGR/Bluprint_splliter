@@ -71,7 +71,6 @@ for (int i = börjLängd; i < (råFillen.Count-(slutLängd+börjLängd)); i++)
     else
         arbetare += "\n" + s;
 
-
 }
 //Arbettlist är en lista som dettar up 
 
