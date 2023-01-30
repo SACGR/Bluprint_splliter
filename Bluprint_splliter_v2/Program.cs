@@ -1,6 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
 using System;
+using System.Runtime.ExceptionServices;
 
 //konfig
 int börjLängd = 25;
@@ -72,8 +73,15 @@ for (int i = börjLängd; i < (råFillen.Count-(slutLängd+börjLängd)); i++)
 
 
 }
+//Arbettlist är en lista som dettar up 
 
+//Räknar ut villket blot somm ligre i varia plats 
+for (int i = 0; i < Mitten.Length; i++)
+{
+    List<string> Arbettlist = Mitten[0,i].Split("\n");
+    Mitten[1,i] = Arbettlist[2];
 
+}
 
 
 //får vetta villka block den ska ta bort och markerar dem i aryn 
