@@ -31,9 +31,11 @@ List<string> råFillen = File.ReadAllLines(HellaFillVäg).ToList();
  
 string Början = "";
 string Slut = "";
-//första värdet här hella blocjet, andra är mannet, Tredje är om den ska behollas 
-//Behöver förbetras
-//string [] Miten;
+//första värdet här hella blocket(Mitten[0,i]), andra är mannet(Mitten[1,i]), Tredje är om den ska behollas(Mitten[2,i])
+string[,] Mitten;
+
+
+
 
 
 //Ta bort början av fillen
@@ -59,9 +61,10 @@ for (int i = börjLängd; i < (råFillen.Count-(slutLängd+börjLängd)); i++)
     Console.WriteLine(s);
     if (s.Contains("</MyObjectBuilder_CubeBlock>"))
     {
-        //Console.ReadLine();
+        Console.WriteLine(i);
         arbette += "\n" + s;
         //läg till coden som leger till Arbette i resultatet
+        Mitten[0,i] = arbette;
         arbette = "";
     }
     else
