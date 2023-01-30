@@ -12,6 +12,8 @@ string Början = "";
 string Slut = "";
 //första värdet här hella blocket(Mitten[0,i]), andra är mannet(Mitten[1,i]), Tredje är om den ska behollas(Mitten[2,i])
 string[,] Mitten;
+//den här listan har inga uprpade block 
+string[,] Block;
 
 
 Console.WriteLine("Var ligger fillen\nom blank letar den i kotalågen dår .exe fillen ligger");
@@ -78,6 +80,20 @@ for (int i = 0; i < Mitten.Length; i++)
 {
     List<string> Arbettlist = Mitten[0,i].Split("\n");
     Mitten[1,i] = Arbettlist[2];
+
+}
+
+//skapar en lista med alla block inga uprpningar 
+for (int i = 0; i < Mitten.GetLength(1); i++)
+{
+    for (int i = 0; i < Block.GetLength(1); i++)
+			{
+                if (Mitten[1,i] != Block[0,i])
+            Block[0,i+1] = Mitten[1,i];
+                return;
+
+			}
+     
 
 }
 
