@@ -3,6 +3,24 @@
 using System;
 using System.Runtime.ExceptionServices;
 
+
+//erors
+//error CS1929: 'string' does not contain a definition for 'Append' and the best extension method overload 'Queryable.Append<string>(IQueryable<string>, string)' requires a receiver of type 'IQueryable<string>'
+//error CS1929: 'string' does not contain a definition for 'Append' and the best extension method overload 'Queryable.Append<string>(IQueryable<string>, string)' requires a receiver of type 'IQueryable<string>'
+//error CS0103: The name 'arbetare' does not exist in the current context
+//error CS0029: Cannot implicitly convert type 'string[]' to 'System.Collections.Generic.List<string>'
+//error CS0136: A local or parameter named 'i' cannot be declared in this scope because that name is used in an enclosing local scope to define a local or parameter
+//warning CS8600: Converting null literal or possible null value to non-nullable type.
+//warning CS8600: Converting null literal or possible null value to non-nullable type.
+//warning CS8600: Converting null literal or possible null value to non-nullable type.
+//error CS0165: Use of unassigned local variable 'Mitten'
+//error CS0165: Use of unassigned local variable 'Block'
+
+
+
+
+
+
 //konfig
 int börjLängd = 25;
 int slutLängd = 14;
