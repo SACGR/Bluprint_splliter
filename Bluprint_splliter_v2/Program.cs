@@ -59,13 +59,13 @@ List<string> råFillen = File.ReadAllLines(HellaFillVäg).ToList();
 
 //Ta bort början av fillen
 for (int i = 0; i < börjLängd; i++)
-    Början.Append("\n" + råFillen[i]);
+    Början += ("\n" + råFillen[i]);
 
 //Ta bort slutet av fillen
 for (int i = 0; i < slutLängd; i++)
 {
     int it = råFillen.Count - (slutLängd - i);
-    Slut.Append("\n" + råFillen[it]);
+    Slut += ("\n" + råFillen[it]);
 
 }
 
@@ -87,7 +87,7 @@ for (int i = börjLängd; i < (råFillen.Count-(slutLängd+börjLängd)); i++)
         arbette = "";
     }
     else
-        arbetare += "\n" + s;
+        arbette += "\n" + s;
 
 }
 //Arbettlist är en lista som dettar up 
@@ -95,7 +95,7 @@ for (int i = börjLängd; i < (råFillen.Count-(slutLängd+börjLängd)); i++)
 //Räknar ut villket blot somm ligre i varia plats 
 for (int i = 0; i < Mitten.Length; i++)
 {
-    List<string> Arbettlist = Mitten[0,i].Split("\n");
+    List<string> Arbettlist = Mitten[0,i].Split("\n").ToList();
     Mitten[1,i] = Arbettlist[2];
 
 }
@@ -103,11 +103,12 @@ for (int i = 0; i < Mitten.Length; i++)
 //skapar en lista med alla block inga uprpningar 
 for (int i = 0; i < Mitten.GetLength(1); i++)
 {
-    for (int i = 0; i < Block.GetLength(1); i++)
+    for (int j = 0; j < Block.GetLength(1); j++)
 			{
-                if (Mitten[1,i] != Block[0,i])
+                if (Mitten[1,i] != Block[0,j])
                   {
-                       Block[0,i+1] = Mitten[1,i];
+                       Block[0, Block.Length] = Mitten[1,i];
+                
                        return;
 
                  }
