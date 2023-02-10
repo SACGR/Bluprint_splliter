@@ -29,9 +29,9 @@ int slutLängd = 14;
 string Början = "";
 string Slut = "";
 //första värdet här hella blocket(Mitten[0,i]), andra är mannet(Mitten[1,i]), Tredje är om den ska behollas(Mitten[2,i])
-string[,] Mitten;
+string[,] Mitten = new string[3, 100000];
 //den här listan har inga uprpade block 
-string[,] Block;
+string[,] Block = new string[1, 100000];
 
 
 Console.WriteLine("Var ligger fillen\nom blank letar den i kotalågen dår .exe fillen ligger");
